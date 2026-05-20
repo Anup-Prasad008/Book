@@ -61,7 +61,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 135px 6% 0;
+            padding: 120px 6% 0;
             margin-bottom: 60px;
             background: radial-gradient(circle at center, rgba(0, 217, 255, 0.03) 0%, transparent 70%);
         }
@@ -115,12 +115,12 @@
         @keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-10px);} 60% {transform: translateY(-5px);} }
 
         /* --- AUTHOR INTRO --- */
-        .author-intro { padding: 100px 6% 80px; text-align: center; width: 100%; max-width: 1400px; margin: 0 auto; text-align: left; }
+        .author-intro { padding: 100px 6% 80px; text-align: center; width: 100%; max-width: 1400px; margin: 0 auto; text-align: center; }
         .author-hero-img { 
             width: 100%; max-width: 700px; border-radius: 20px; margin: 0 auto 50px; display: block;
             box-shadow: 0 0 50px rgba(0,0,0,0.5); 
         }
-        .author-intro h1 { font-size: clamp(3rem, 8vw, 6rem); font-weight: 900; line-height: 0.9; margin: 20px 0; letter-spacing: -2px; text-align: left;}
+        .author-intro h1 { font-size: clamp(3rem, 8vw, 6rem); font-weight: 900; line-height: 0.9; margin: 20px 0; letter-spacing: -2px; text-align: center;}
         .author-intro p { max-width: 650px;text-align: justify; margin: 0 auto 30px; color: var(--text-dim); line-height: 1.8; font-size: 1.05rem; }
         
         .quote-box{
@@ -659,10 +659,10 @@
 
         const allBooks = [
             { id: 1, title: "THE MIRROR EDGE", genre: "Psychological Thriller", img: "Image/The mirror edge.jpg", short: "A mysterious journey where reality and illusion collide.", desc: "When investigative journalist Elena Prasad discovers an old mirror, it shows her a version of the world that shouldn't exist." },
-            { id: 2, title: "THE SILENT ECHO", genre: "Emotional Fiction", img: "Image/author.jpg", short: "One woman's quest to find her voice.", desc: "A hauntingly beautiful story of rediscovering one's self in a world filled with silence." },
-            { id: 3, title: "NEON GHOSTS", genre: "Futuristic Fiction", img: "Image/author.jpg", short: "In the sprawling megacity, memories are currency.", desc: "A futuristic noir setting where digital ghosts haunt the wires of a hyper-connected metropolis." },
-            { id: 4, title: "HIDDEN BEAUTY", genre: "Literary Drama", img: "Image/Hidden Beauty.jpg", short: "Beauty is not always loud. It lives in shadows.", desc: "An introspective book that explores survival and identity." },
-            { id: 5, title: "C PROGRAMMING", genre: "Education", img: "Image/C programming.jpg", short: "A beginner guide to master C language.", desc: "Master the art of programming with this comprehensive guide for beginners." }
+            { id: 2, title: "THE MIRROR EDGE : <h5>The Shattered Veil (Part - 2)</h5>", genre: "Psychological Thriller", img: "Image/The mirror edge 2.jpg", short: "Behind every reflection lies a shattered truth waiting to be revealed.", desc: "A hauntingly beautiful story of rediscovering one's self in a world filled with silence." },
+            { id: 3, title: "LEARN HACKING", genre: "Computer & Technology", img: "Image/Hacking.jpg", short: "Learn the art of hacking to understand systems, secure future and think beyond limits.", desc: "A futuristic noir setting where digital ghosts haunt the wires of a hyper-connected metropolis." },
+            { id: 4, title: "THE SCIENCE OF POSITIVITY", genre: "Motivation", img: "Image/The science.jpg", short: "Unlock the science of positivity and rewire your mind for a happier, stronger life.", desc: "An introspective book that explores survival and identity." },
+            { id: 5, title: "C PROGRAMMING", genre: "Computer & Technology", img: "Image/C.jpg", short: "A beginner guide to master C language.", desc: "Master the art of programming with this comprehensive guide for beginners." }
         ];
 
         let limit = 4;
